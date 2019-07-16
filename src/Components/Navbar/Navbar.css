@@ -1,0 +1,42 @@
+.navbar_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-right: 15px;
+}
+.navtopbar>.svgicon>svg{
+    height: 20px;
+    width: 20px;
+    margin: 6px 5px 3px 5px;
+    cursor: pointer;
+}
+.svgicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    height: auto;
+    margin-left: 15px;
+    z-index: 1;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background: #8B8F97;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    height: 1000px;
+}
+.navtopbar{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+}

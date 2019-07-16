@@ -1,0 +1,93 @@
+.post_card>.postbanner>img{
+    height: 100%;
+    width: 100%;
+}
+.post_card>.postbanner{
+    width: 40%;
+}
+.post_card{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 300px;
+    border: 1px solid gray;
+    margin: 10px 5px 10px 5px;
+}
+.post_card>.postinf{
+    width: 60%;
+    position: relative;
+}
+.postinf>svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.postinf>.username{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #fff;
+
+}
+.postinf>.heading{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+    font-size: 36px;
+    font-family: 'Roboto';
+    color: #000000;
+
+}
+.postinf>.readtime{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    z-index: 1;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.postinf>.date{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    z-index: 1;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.postinf>.article{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Roboto';
+
+}
+.postinf>.bookmark{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+.postcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 10px 10px 10px;
+    justify-content: space-around;
+}
+.bookmark:hover{
+    fill: rgb(243, 136, 15);
+}
+.makemark{
+    fill: rgb(243, 136, 15); 
+}
+.post_card{
+    background: #fff;
+}

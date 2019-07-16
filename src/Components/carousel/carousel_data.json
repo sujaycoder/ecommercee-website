@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "post_heading": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Eveniet aperiam ea in quo nobis delectus ab molestiae voluptas rerum eaque consequuntur,cum eligendi eum repellendusiusto asperiores ullam necessitatibus libero?",
+        "post_imgUrl": "./virat.jpg",
+        "full_posturl": "#"
+    },
+    {
+        "id": 2,
+        "post_heading": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Eveniet aperiam ea in quo nobis delectus ab molestiae voluptas rerum eaque consequuntur,cum eligendi eum repellendusiusto asperiores ullam necessitatibus libero?",
+        "post_imgUrl": "./virat.jpg",
+        "full_posturl": "#"
+    },   {
+        "id": 3,
+        "post_heading": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Eveniet aperiam ea in quo nobis delectus ab molestiae voluptas rerum eaque consequuntur,cum eligendi eum repellendusiusto asperiores ullam necessitatibus libero?",
+        "post_imgUrl": "./virat.jpg",
+        "full_posturl": "#"
+    },
+    {
+        "id": 4,
+        "post_heading": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Eveniet aperiam ea in quo nobis delectus ab molestiae voluptas rerum eaque consequuntur,cum eligendi eum repellendusiusto asperiores ullam necessitatibus libero?",
+        "post_imgUrl": "./virat.jpg",
+        "full_posturl": "#"
+    }
+]
+

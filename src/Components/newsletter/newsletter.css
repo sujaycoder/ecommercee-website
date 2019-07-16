@@ -1,0 +1,39 @@
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px auto 10px 5px;
+    align-items: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.head>.col{
+    height: 50px;
+    width: 10px;
+    background: #8B8978;
+    margin: 0px 30px 5px 0px;
+}
+.head{
+    display: flex;
+}
+.head>.label{
+    margin: 13px 30px 5px 5px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #000000;
+
+}
+.sub{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: rgb(236, 91, 6);
+    margin: 10px auto 5px 50px;
+
+}
+.newsfeed>svg{
+    cursor: pointer;
+}

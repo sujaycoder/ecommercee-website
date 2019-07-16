@@ -1,0 +1,15 @@
+
+.livescore>.container{
+    height: 400px;
+    width: 300px;
+    border: solid;
+    margin: 10px auto 10px auto;
+}
+.livescore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+}

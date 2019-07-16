@@ -1,0 +1,77 @@
+.featnewhead{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    width: 10px;
+    height: 70px;
+    background: #8B8F97;
+    margin-right: 30px;
+}
+.mainfrm>.banner>img{
+    width: 350px;
+    height: 300px;
+}
+.mainfrm{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
+}
+.mainfrm>.banner{
+    position: relative;
+}
+.hover{
+    width: 350px;
+    height: 0px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+}
+.mainfrm>.banner>img:hover~.hover{
+    transition: .5s all ease-in-out;
+    height: 300px;
+}
+.hover:hover{
+    transition: .5s all ease-in-out;
+    height: 300px;
+}
+.hover>p{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    display: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.mainfrm>.banner>img:hover~.hover>p{
+    transition: 1s all ease-in-out;
+    display: block;
+}
+.hover:hover p{
+    transition: 1s all ease-in-out;
+    display: block;
+}
+.hover>svg{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    display: none;
+}
+.hover>svg>path{
+    fill: #fff;
+}
+.hover:hover svg{
+    display: block;
+}
+.mainfrm>.banner>img:hover~.hover>svg{
+    display: block;
+}

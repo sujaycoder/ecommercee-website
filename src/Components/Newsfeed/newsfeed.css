@@ -1,0 +1,27 @@
+.row{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+    background: #F2E9E9;
+}
+.newsfeed{
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.newsfeed>svg{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right:5%;
+    top: 30%;
+}
+.newsfeed>svg>path{
+    fill: #8B8F98;
+}
+.newsfeed>svg:nth-child(4){
+    right: 10%;
+    transform: rotate(180deg)
+}
